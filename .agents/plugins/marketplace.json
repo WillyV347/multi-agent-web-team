@@ -1,0 +1,19 @@
+{
+  "name": "multi-agent-web-team",
+  "plugins": [
+    {
+      "name": "multi-agent-web-team",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "homepage": "https://github.com/WillyV347/multi-agent-web-team",
+      "description": "Portfolio showcase: thin multi-agent web team with sample roles, skills, and a gated demo kickoff."
+    }
+  ]
+}

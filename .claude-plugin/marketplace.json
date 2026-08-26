@@ -1,0 +1,20 @@
+{
+  "name": "multi-agent-web-team",
+  "description": "Portfolio showcase of a role-based multi-agent web team — sample agents, skills, and a gated demo kickoff for Claude Code, Cursor, and Codex.",
+  "owner": {
+    "name": "Will Vowell",
+    "url": "https://github.com/WillyV347"
+  },
+  "plugins": [
+    {
+      "name": "multi-agent-web-team",
+      "source": "./",
+      "description": "Thin multi-agent web team demo: six sample roles, three skills, and /demo-kickoff with human gates.",
+      "version": "0.2.0",
+      "category": "workflow",
+      "homepage": "https://github.com/WillyV347/multi-agent-web-team",
+      "license": "MIT",
+      "keywords": ["agents", "web", "portfolio", "demo", "cursor", "claude", "codex"]
+    }
+  ]
+}

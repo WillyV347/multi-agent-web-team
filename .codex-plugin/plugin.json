@@ -1,0 +1,27 @@
+{
+  "name": "multi-agent-web-team",
+  "version": "0.2.0",
+  "description": "Portfolio showcase: thin multi-agent web team — sample roles, skills, and a gated demo kickoff.",
+  "author": {
+    "name": "Will Vowell",
+    "email": "willy347@breathingcode.com",
+    "url": "https://github.com/WillyV347"
+  },
+  "homepage": "https://github.com/WillyV347/multi-agent-web-team",
+  "repository": "https://github.com/WillyV347/multi-agent-web-team",
+  "license": "MIT",
+  "keywords": ["agents", "web", "portfolio", "demo", "skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Multi-Agent Web Team",
+    "shortDescription": "Sample multi-agent web team (portfolio demo)",
+    "longDescription": "A thin architecture showcase: six sample role agents, reusable skills, and a gated demo kickoff. Not a production agency operating system.",
+    "developerName": "Will Vowell",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/WillyV347/multi-agent-web-team",
+    "defaultPrompt": [
+      "Run the demo kickoff for Harbor & Pine Coffee — neighborhood café in Portland, OR",
+      "Use write-prd to draft a short PRD for a contact form on a fictional café site"
+    ]
+  }
+}

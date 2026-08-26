@@ -1,0 +1,11 @@
+{
+  "name": "multi-agent-web-team",
+  "version": "0.2.0",
+  "description": "Portfolio showcase: a thin multi-agent web team for Claude Code, Cursor, and Codex — sample roles, skills, and a gated demo kickoff. Not a production agency operating system.",
+  "author": {
+    "name": "Will Vowell",
+    "url": "https://github.com/WillyV347"
+  },
+  "homepage": "https://github.com/WillyV347/multi-agent-web-team",
+  "license": "MIT"
+}
