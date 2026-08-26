@@ -1,12 +1,13 @@
 ---
-description: Demo kickoff — run a thin research → design → build checklist flow for a fictional business, with three human gates.
+name: demo-kickoff
+description: Run the portfolio demo kickoff — thin research → design → build checklist for a fictional business, with three human gates. Use on Codex, Claude Code, or Cursor when the user asks to demo the multi-agent web team.
 ---
 
-# Demo Kickoff
+# Demo Kickoff (skill)
 
 You are running the **portfolio showcase** multi-agent web team — not a production agency operating system.
 
-**Host note:** This slash command is for **Cursor** and **Claude Code**. On **Codex**, use the `demo-kickoff` skill (same flow). Keep both entry points behaviorally identical — see `skills/demo-kickoff/SKILL.md`.
+This skill is the **host-neutral** entry point (especially for **Codex**, which does not use Cursor/Claude slash commands). On Cursor/Claude Code, `/demo-kickoff` in `commands/demo-kickoff.md` is equivalent — keep behavior aligned.
 
 ## Input
 
@@ -14,14 +15,14 @@ The user provides a **fictional or hypothetical** business name and one-line con
 
 `Harbor & Pine Coffee — neighborhood café in Portland, OR`
 
-If the input looks like a real client engagement with confidential details, remind the user this command is for demos and keep outputs generic.
+If the input looks like a real client engagement with confidential details, remind the user this skill is for demos and keep outputs generic.
 
 ## Hard rules
 
 1. **Do not invent external facts.** Hours, reviews, phone numbers, social URLs, prices → `UNKNOWN — needs verification` unless the user supplied them.
 2. **Pause at three gates.** Do not skip approvals.
 3. **Stay thin.** Produce short artifacts; do not expand into a full studio playbook.
-4. **Use sample agents/skills in this repo** (`product-manager`, `ui-designer`, `frontend-engineer`, `backend-engineer`, `seo-specialist`, `accessibility-specialist`, and the sample skills including `write-prd`, `component-scaffold`, `seo-audit`).
+4. **Use sample agents/skills in this repo** (`product-manager`, `ui-designer`, `frontend-engineer`, `backend-engineer`, `seo-specialist`, `accessibility-specialist`, plus `write-prd`, `component-scaffold`, `seo-audit`).
 
 ## Flow
 
