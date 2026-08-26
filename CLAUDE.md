@@ -1,6 +1,6 @@
 # Multi-Agent Web Team — session frame
 
-This repo is a **portfolio showcase** of a role-based multi-agent web team — not a production agency operating system. Changes in a demo should go through the sample roles and gates, not around them.
+This repo is a **multi-agent web team demo**: named roles, shared skills, and human gates. Route work through the sample agents instead of bypassing them.
 
 ## Hosts
 
@@ -12,7 +12,7 @@ This repo is a **portfolio showcase** of a role-based multi-agent web team — n
 
 Keep this file and `CLAUDE.md` identical.
 
-## Ground-truth pointers (demo)
+## Ground-truth pointers
 
 - Role briefs: [`agents/`](agents/)
 - Skills: [`skills/`](skills/) (`write-prd`, `component-scaffold`, `seo-audit`, `demo-kickoff`)
@@ -24,10 +24,10 @@ Keep this file and `CLAUDE.md` identical.
 - **Gates are human** — pause at Gate 1 (scope), Gate 2 (design), Gate 3 (build checklist).
 - **Demo data only** — never invent real business facts; mark gaps `UNKNOWN — needs verification`.
 - **Roles over vibes** — when a phase needs a specialist, open the matching file under `agents/` and follow it.
-- **Skills are procedures** — call the sample skills instead of improvising a whole playbook.
-- **Stay thin** — this is a showcase; do not expand into a full studio operating system.
+- **Skills are procedures** — call the sample skills instead of improvising a whole workflow.
+- **Stay in scope** — keep outputs short and appropriate for the demo; extend the repo if you need more depth.
 
-## Change-routing (demo)
+## Change-routing
 
 | The ask | Route |
 |---|---|
@@ -41,4 +41,4 @@ Keep this file and `CLAUDE.md` identical.
 
 ## Keep-current rule
 
-If you add an agent, skill, or command to this showcase, update **both** `AGENTS.md` and `CLAUDE.md`, plus the host manifests under `.cursor-plugin/`, `.claude-plugin/`, and `.codex-plugin/`.
+If you add an agent, skill, or command, update **both** `AGENTS.md` and `CLAUDE.md`, plus the host manifests under `.cursor-plugin/`, `.claude-plugin/`, and `.codex-plugin/`.

@@ -1,8 +1,6 @@
-# Multi-Agent Web Team (Portfolio Showcase)
+# Multi-Agent Web Team
 
-A **demonstration** of a role-based multi-agent web team for **Cursor**, **Claude Code**, and **Codex**: strategy, design, engineering, and growth agents that collaborate through shared skills and a gated kickoff.
-
-> **Portfolio note.** This repo is an intentionally thin public showcase of the *architecture* — not a full production system. The deeper engagement playbooks, accumulated lessons, industry research cache, and studio-specific tooling used remain private.
+A role-based multi-agent web team for **Cursor**, **Claude Code**, and **Codex**: sample strategy, design, engineering, and quality agents that collaborate through shared skills and a gated demo kickoff.
 
 **Author:** [Will Vowell](https://github.com/WillyV347)
 
@@ -10,13 +8,13 @@ A **demonstration** of a role-based multi-agent web team for **Cursor**, **Claud
 
 ## Why this exists
 
-Shipping a client site with AI usually fails in one of three ways:
+Building a website with AI usually fails in one of three ways:
 
 1. One generalist agent does everything and produces generic output.
 2. “Specialists” exist as labels but share no workflow, so handoffs are prose soup.
 3. There are no human gates — design and launch happen without a decision.
 
-This showcase shows the pattern that fixes that: **named roles**, **specialist skills**, **one ignition entry point**, and **explicit gates** between research → design → build → launch.
+This repo demonstrates a pattern that addresses those failures: **named roles**, **specialist skills**, **one ignition entry point**, and **explicit gates** between research → design → build → launch.
 
 ```
   Research  --Gate 1-->  Design  --Gate 2-->  Build  --Gate 3-->  Launch
@@ -48,9 +46,9 @@ Shared layout: root `agents/`, `skills/`, and `commands/` (Cursor + Claude). Cod
 | [`skills/`](skills/) | `write-prd`, `component-scaffold`, `seo-audit`, `demo-kickoff` |
 | [`commands/demo-kickoff.md`](commands/demo-kickoff.md) | Slash-command entry (Cursor / Claude Code) |
 | [`ARCHITECTURE.md`](ARCHITECTURE.md) | How roles, skills, and gates fit together |
-| [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json) | Codex repo marketplace pointing at this plugin |
+| [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json) | Codex repo marketplace entry |
 
-**Not included (on purpose):** full orchestration playbooks, design-direction interrogation systems, engagement memory formats used in production, lesson libraries, industry profile caches, or studio branding pipelines.
+This is a **focused demo**: six roles, four skills, one end-to-end walkthrough with human approval gates — enough to learn the pattern and extend it.
 
 ---
 
@@ -67,7 +65,7 @@ Shared layout: root `agents/`, `skills/`, and `commands/` (Cursor + Claude). Cod
 
 **Option A — marketplace (recommended for reuse across repos)**
 
-Commit this to a consuming repo’s `.claude/settings.json` (this showcase repo is **public**, so Claude Code web can fetch it):
+Commit this to a consuming repo’s `.claude/settings.json`:
 
 ```json
 {
@@ -89,7 +87,7 @@ Then run `/multi-agent-web-team:demo-kickoff …` (or the short name your instal
 
 **Option B — open this repo**
 
-Clone and open this folder in Claude Code. `CLAUDE.md` loads the session frame; use `/demo-kickoff` or ask to run the demo kickoff skill.
+Open this folder in Claude Code. `CLAUDE.md` loads the session frame; use `/demo-kickoff` or ask to run the demo kickoff skill.
 
 **Vendoring fallback:** copy `skills/<name>/` → `.claude/skills/<name>/`, `commands/*.md` → `.claude/commands/`, `agents/*.md` → `.claude/agents/`.
 
@@ -97,7 +95,7 @@ Clone and open this folder in Claude Code. `CLAUDE.md` loads the session frame; 
 
 **Option A — install as a plugin from this repo’s marketplace**
 
-1. Clone this repo (or add it as a marketplace source).
+1. Open this repo (or add it as a marketplace source).
 2. Codex reads [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json) (and the legacy-compatible [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)).
 3. Install **Multi-Agent Web Team** from the Plugins UI / plugin browser.
 4. Ask: `Run the demo-kickoff skill for Harbor & Pine Coffee — neighborhood café in Portland, OR`  
@@ -105,7 +103,7 @@ Clone and open this folder in Claude Code. `CLAUDE.md` loads the session frame; 
 
 **Option B — open this repo without installing**
 
-`AGENTS.md` loads automatically. Skills are also discoverable under [`.agents/skills/`](.agents/skills/) (mirrors of `skills/` for Codex discovery). Ask Codex to run `demo-kickoff`.
+`AGENTS.md` loads automatically. Skills are also discoverable under [`.agents/skills/`](.agents/skills/) (copies of `skills/` for Codex repo discovery). Ask Codex to run `demo-kickoff`.
 
 ---
 
@@ -122,17 +120,16 @@ Clone and open this folder in Claude Code. `CLAUDE.md` loads the session frame; 
 
 ---
 
-## Design principles (public)
+## Design principles
 
 1. **Roles over vibes** — each agent has a job description, not a personality prompt.
 2. **Skills are reusable procedures** — agents call skills; skills don’t bury the whole business in one mega-prompt.
 3. **Gates are human** — AI drafts; a person approves scope, design, and launch.
 4. **Demo data only** — never invent real business facts; mark unknowns explicitly.
-5. **Portfolio ≠ product** — what’s public teaches the shape of the system; production depth stays private.
-6. **One repo, three hosts** — Cursor, Claude Code, and Codex share agents/skills; each host has its own thin manifest.
+5. **One repo, three hosts** — Cursor, Claude Code, and Codex share agents/skills; each host has its own manifest.
 
 ---
 
 ## License
 
-MIT — see [LICENSE](LICENSE). You’re free to learn from and adapt the *pattern*. Please don’t present this demo as a drop-in agency operating system; it isn’t one.
+MIT — see [LICENSE](LICENSE). You’re free to learn from and adapt the pattern.
