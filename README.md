@@ -133,12 +133,6 @@ Clone and open this folder in Claude Code. `CLAUDE.md` loads the session frame; 
 
 ---
 
-## LinkedIn / portfolio blurb (copy-paste)
-
-> Built a multi-agent web team for Cursor, Claude Code, and Codex: role agents (PM, design, engineering, SEO, a11y) coordinated through shared skills and gated phases (research → design → build → launch). This public repo is a thin architecture showcase; production engagement tooling stays private.
-
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE). You’re free to learn from and adapt the *pattern*. Please don’t present this demo as a drop-in agency operating system; it isn’t one.
