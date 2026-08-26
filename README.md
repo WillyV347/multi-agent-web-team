@@ -4,7 +4,7 @@ A **demonstration** of a role-based multi-agent web team for **Cursor**, **Claud
 
 > **Portfolio note.** This repo is an intentionally thin public showcase of the *architecture* — not a full production system. The deeper engagement playbooks, accumulated lessons, industry research cache, and studio-specific tooling used on client work remain private.
 
-**Author:** [Will Vowell](https://github.com/WillyV347) · [breathingCode](https://www.breathingcode.com)
+**Author:** [Will Vowell](https://github.com/WillyV347)
 
 ---
 
