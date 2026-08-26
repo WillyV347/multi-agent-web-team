@@ -2,7 +2,7 @@
 
 A **demonstration** of a role-based multi-agent web team for **Cursor**, **Claude Code**, and **Codex**: strategy, design, engineering, and growth agents that collaborate through shared skills and a gated kickoff.
 
-> **Portfolio note.** This repo is an intentionally thin public showcase of the *architecture* — not a full production system. The deeper engagement playbooks, accumulated lessons, industry research cache, and studio-specific tooling used on client work remain private.
+> **Portfolio note.** This repo is an intentionally thin public showcase of the *architecture* — not a full production system. The deeper engagement playbooks, accumulated lessons, industry research cache, and studio-specific tooling used remain private.
 
 **Author:** [Will Vowell](https://github.com/WillyV347)
 
