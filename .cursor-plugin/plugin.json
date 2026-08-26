@@ -1,0 +1,18 @@
+{
+  "name": "multi-agent-web-team",
+  "version": "0.1.0",
+  "description": "Portfolio showcase: a thin multi-agent web team for Cursor — sample roles, skills, and a demo kickoff. Not a production agency operating system.",
+  "author": {
+    "name": "Will Vowell",
+    "email": "willy347@breathingcode.com"
+  },
+  "homepage": "https://github.com/WillyV347/multi-agent-web-team",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "web",
+    "portfolio",
+    "cursor",
+    "demo"
+  ]
+}
