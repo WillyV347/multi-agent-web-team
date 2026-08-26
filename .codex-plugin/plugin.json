@@ -1,7 +1,7 @@
 {
   "name": "multi-agent-web-team",
   "version": "0.2.0",
-  "description": "Portfolio showcase: thin multi-agent web team — sample roles, skills, and a gated demo kickoff.",
+  "description": "A thin multi-agent web team — sample roles, skills, and a gated demo kickoff.",
   "author": {
     "name": "Will Vowell",
     "url": "https://github.com/WillyV347"
@@ -13,8 +13,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Multi-Agent Web Team",
-    "shortDescription": "Sample multi-agent web team (portfolio demo)",
-    "longDescription": "A thin architecture showcase: six sample role agents, reusable skills, and a gated demo kickoff. Not a production agency operating system.",
+    "shortDescription": "Sample multi-agent web team demo",
+    "longDescription": "Six sample role agents, reusable skills, and a gated demo kickoff for Cursor, Claude Code, and Codex.",
     "developerName": "Will Vowell",
     "category": "Productivity",
     "websiteURL": "https://github.com/WillyV347/multi-agent-web-team",

@@ -1,7 +1,7 @@
 {
   "name": "multi-agent-web-team",
   "version": "0.2.0",
-  "description": "Portfolio showcase: a thin multi-agent web team for Cursor, Claude Code, and Codex — sample roles, skills, and a demo kickoff. Not a production agency operating system.",
+  "description": "A thin multi-agent web team for Cursor, Claude Code, and Codex — sample roles, skills, and a gated demo kickoff.",
   "author": {
     "name": "Will Vowell"
   },
