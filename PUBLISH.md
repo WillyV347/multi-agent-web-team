@@ -2,7 +2,7 @@
 
 Public repo: https://github.com/WillyV347/multi-agent-web-team
 
-This tree is a **standalone showcase** (not a mirror of `breathingcode-web-team` production).
+This tree is a **standalone showcase** — not a mirror of any private production plugin.
 
 ## Hosts to keep in sync when editing
 
