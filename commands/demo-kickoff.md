@@ -4,7 +4,7 @@ description: Demo kickoff — run a thin research → design → build checklist
 
 # Demo Kickoff
 
-You are running the **portfolio showcase** multi-agent web team — not a production agency operating system.
+You are running the **multi-agent web team demo** in this repo.
 
 **Host note:** This slash command is for **Cursor** and **Claude Code**. On **Codex**, use the `demo-kickoff` skill (same flow). Keep both entry points behaviorally identical — see `skills/demo-kickoff/SKILL.md`.
 
@@ -14,13 +14,13 @@ The user provides a **fictional or hypothetical** business name and one-line con
 
 `Harbor & Pine Coffee — neighborhood café in Portland, OR`
 
-If the input looks like a real client engagement with confidential details, remind the user this command is for demos and keep outputs generic.
+If the input includes real business details that look confidential, remind the user this command is for demos with fictional scenarios and keep outputs generic.
 
 ## Hard rules
 
 1. **Do not invent external facts.** Hours, reviews, phone numbers, social URLs, prices → `UNKNOWN — needs verification` unless the user supplied them.
 2. **Pause at three gates.** Do not skip approvals.
-3. **Stay thin.** Produce short artifacts; do not expand into a full studio playbook.
+3. **Stay in scope.** Produce short demo artifacts; do not expand into a full multi-phase delivery playbook unless the user explicitly asks.
 4. **Use sample agents/skills in this repo** (`product-manager`, `ui-designer`, `frontend-engineer`, `backend-engineer`, `seo-specialist`, `accessibility-specialist`, and the sample skills including `write-prd`, `component-scaffold`, `seo-audit`).
 
 ## Flow
@@ -50,10 +50,10 @@ After Gate 2 approval:
 1. `frontend-engineer` — page/component checklist; use `component-scaffold` for any net-new reusable component.
 2. `backend-engineer` — minimum form/API/data notes.
 3. `accessibility-specialist` — WCAG floor checklist tied to the design notes.
-4. Merge into a single **Gate 3 checklist**: ready-to-build items, risks, and out-of-demo items (credentials, real CMS, etc.).
+4. Merge into a single **Gate 3 checklist**: ready-to-build items, risks, and items that need real credentials or infrastructure (CMS, hosting, API keys, etc.).
 
 **Gate 3 — stop and ask the user to approve the checklist.**
 
 ### Close
 
-Summarize what was produced, what would happen next in a real engagement (implementation repo, real brand assets, hosting), and remind them this repo is a portfolio architecture demo.
+Summarize what was produced. Optionally note logical next steps if the user wanted to build for real: create an implementation repo, add real brand assets, wire up hosting — without implying this demo repo becomes that build.

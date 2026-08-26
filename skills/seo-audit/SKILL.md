@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: Run a lightweight on-page and technical SEO checklist for a page or small site. Demo version — directional, not a full agency audit.
+description: Run a lightweight on-page and technical SEO checklist for a page or small site. Demo version — directional baseline, not an exhaustive audit.
 ---
 
 # SEO Audit (showcase)
